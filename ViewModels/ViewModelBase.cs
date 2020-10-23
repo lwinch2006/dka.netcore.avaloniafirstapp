@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ReactiveUI;
+﻿using ReactiveUI;
 
-namespace Dka.NetCore.AvaloniaFirstApp1.ViewModels
+namespace Dka.NetCore.AvaloniaFirstApp.ViewModels
 {
     public class ViewModelBase : ReactiveObject
     {

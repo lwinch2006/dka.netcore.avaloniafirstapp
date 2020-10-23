@@ -1,4 +1,4 @@
-namespace Dka.NetCore.AvaloniaFirstApp1.Models
+namespace Dka.NetCore.AvaloniaFirstApp.Models
 {
     public class TodoItem
     {

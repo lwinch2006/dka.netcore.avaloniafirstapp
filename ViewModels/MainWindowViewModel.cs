@@ -1,13 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Dka.NetCore.AvaloniaFirstApp1.Services;
+﻿using System.Linq;
+using Dka.NetCore.AvaloniaFirstApp.Models;
+using Dka.NetCore.AvaloniaFirstApp.Services;
 
-namespace Dka.NetCore.AvaloniaFirstApp1.ViewModels
+namespace Dka.NetCore.AvaloniaFirstApp.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
         public TodoListViewModel List { get; }
+
+        public MainWindowViewModel()
+        {
+            List = new TodoListViewModel(Enumerable.Empty<TodoItem>());
+        }
         
         public MainWindowViewModel(Database db)
         {

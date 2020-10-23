@@ -1,11 +1,11 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using Dka.NetCore.AvaloniaFirstApp1.Services;
-using Dka.NetCore.AvaloniaFirstApp1.ViewModels;
-using Dka.NetCore.AvaloniaFirstApp1.Views;
+using Dka.NetCore.AvaloniaFirstApp.Services;
+using Dka.NetCore.AvaloniaFirstApp.ViewModels;
+using Dka.NetCore.AvaloniaFirstApp.Views;
 
-namespace Dka.NetCore.AvaloniaFirstApp1
+namespace Dka.NetCore.AvaloniaFirstApp
 {
     public class App : Application
     {

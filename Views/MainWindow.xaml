@@ -2,19 +2,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:views="clr-namespace:Dka.NetCore.AvaloniaFirstApp1.Views"
-        xmlns:viewModels="clr-namespace:Dka.NetCore.AvaloniaFirstApp1.ViewModels"
+        xmlns:views="clr-namespace:Dka.NetCore.AvaloniaFirstApp.Views"
+        xmlns:viewModels="clr-namespace:Dka.NetCore.AvaloniaFirstApp.ViewModels"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="Dka.NetCore.AvaloniaFirstApp1.Views.MainWindow"
+        x:Class="Dka.NetCore.AvaloniaFirstApp.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="Sample todo app"
         Content="{Binding List}">
-
     <Design.DataContext>
         <viewModels:MainWindowViewModel/>
     </Design.DataContext>
-
-    <!-- <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
-    
-    
 </Window>

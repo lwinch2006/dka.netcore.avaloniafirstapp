@@ -4,7 +4,7 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Logging.Serilog;
 using Avalonia.ReactiveUI;
 
-namespace Dka.NetCore.AvaloniaFirstApp1
+namespace Dka.NetCore.AvaloniaFirstApp
 {
     class Program
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Dka.NetCore.AvaloniaFirstApp1.Models;
+using Dka.NetCore.AvaloniaFirstApp.Models;
 
-namespace Dka.NetCore.AvaloniaFirstApp1.Services
+namespace Dka.NetCore.AvaloniaFirstApp.Services
 {
     public class Database
     {

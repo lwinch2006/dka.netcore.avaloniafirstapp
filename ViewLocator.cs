@@ -4,9 +4,9 @@
 using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using Dka.NetCore.AvaloniaFirstApp1.ViewModels;
+using Dka.NetCore.AvaloniaFirstApp.ViewModels;
 
-namespace Dka.NetCore.AvaloniaFirstApp1
+namespace Dka.NetCore.AvaloniaFirstApp
 {
     public class ViewLocator : IDataTemplate
     {

@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace Dka.NetCore.AvaloniaFirstApp1.Views
+namespace Dka.NetCore.AvaloniaFirstApp.Views
 {
     public class MainWindow : Window
     {
